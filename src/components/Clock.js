@@ -1,29 +1,21 @@
 import React from "react";
 
 class Clock extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {currentCount: 1}
-    }
+
     componentDidMount() {
         const canvas = this.refs.canvas
         const ctx = canvas.getContext("2d")
         var radius = canvas.height / 2;
         ctx.translate(radius, radius);
-        radius = radius * 0.90;  
-        this.timer(ctx,radius);
+        radius = radius * 0.90;
+        setInterval(() => this.drawClock(ctx,radius) , 1000);
     }
-   
-    timer(ctx,radius) {
-        setInterval(this.drawClock(ctx,radius) , 1000);
-    }
-    
+
     drawClock = (ctx,radius) => {
-        // console.log("inside draw clock")
         ctx.arc(0, 0, radius, 0 , 2 * Math.PI);
         ctx.fillStyle = "#282c34";
         ctx.fill();
-        this.drawFace(ctx, radius); 
+        this.drawFace(ctx, radius);
         this.drawNumbers(ctx,radius);
         this.drawTime(ctx,radius);
     }
@@ -99,8 +91,9 @@ class Clock extends React.Component {
     render() {
         return(
             <React.Fragment>
-                <h1>Canvas Clock using React JS</h1>
+                
                 <div className="clockCanvas">
+                <h1>Canvas Clock using React JS</h1>
                     <canvas ref="canvas" width={350} height={350} />
                 </div>
 
