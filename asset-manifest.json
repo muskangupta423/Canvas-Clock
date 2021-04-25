@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Canvas-Clock/static/css/main.a040a30b.chunk.css",
-    "main.js": "/Canvas-Clock/static/js/main.f6ae5327.chunk.js",
-    "main.js.map": "/Canvas-Clock/static/js/main.f6ae5327.chunk.js.map",
+    "main.css": "/Canvas-Clock/static/css/main.707dc973.chunk.css",
+    "main.js": "/Canvas-Clock/static/js/main.e9289e67.chunk.js",
+    "main.js.map": "/Canvas-Clock/static/js/main.e9289e67.chunk.js.map",
     "runtime-main.js": "/Canvas-Clock/static/js/runtime-main.06a2772d.js",
     "runtime-main.js.map": "/Canvas-Clock/static/js/runtime-main.06a2772d.js.map",
     "static/js/2.a6522324.chunk.js": "/Canvas-Clock/static/js/2.a6522324.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.06b73cbb.chunk.js": "/Canvas-Clock/static/js/3.06b73cbb.chunk.js",
     "static/js/3.06b73cbb.chunk.js.map": "/Canvas-Clock/static/js/3.06b73cbb.chunk.js.map",
     "index.html": "/Canvas-Clock/index.html",
-    "static/css/main.a040a30b.chunk.css.map": "/Canvas-Clock/static/css/main.a040a30b.chunk.css.map",
+    "static/css/main.707dc973.chunk.css.map": "/Canvas-Clock/static/css/main.707dc973.chunk.css.map",
     "static/js/2.a6522324.chunk.js.LICENSE.txt": "/Canvas-Clock/static/js/2.a6522324.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.06a2772d.js",
     "static/js/2.a6522324.chunk.js",
-    "static/css/main.a040a30b.chunk.css",
-    "static/js/main.f6ae5327.chunk.js"
+    "static/css/main.707dc973.chunk.css",
+    "static/js/main.e9289e67.chunk.js"
   ]
 }
